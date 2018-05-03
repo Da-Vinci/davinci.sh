@@ -8,7 +8,9 @@
 			We are a group of highly skilled, talented developers on Discord. <br>
 			We build great software.
 		</p>
-		<button class="btn btn-lg mt-3" id="button">SEE PROJECTS <span class="ml-2 fa fa-chevron-right"></span></button>
+		<router-link :to="{name: 'projects'}" class="btn btn-lg mt-3" id="button" tag="button">
+			SEE PROJECTS <span class="ml-2 fa fa-chevron-right"/>
+		</router-link>
 	</div>
 </template>
 
