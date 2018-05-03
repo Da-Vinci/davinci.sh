@@ -1,0 +1,33 @@
+main {
+  grid: 318px auto / auto;
+}
+
+header {
+  grid: auto / 1fr 1fr;
+  grid-column: 1;
+  grid-row: 1;
+  padding-top: 40px;
+}
+
+header>img {
+  align-self: start;
+  height: 70px;
+  margin: 0px 35px 0px 0px;
+  transform: translateY(0%);
+  width: 70px;
+}
+
+header>h1 {
+  align-self: start;
+  border-bottom: 0px;
+  font-size: 18pt;
+  padding: 0px;
+  margin: 0px 0px 0px 0px;
+  transform: translateY(66%);
+}
+
+widget {
+  grid-column: 1;
+  grid-row: 1 / span 2;
+  margin: 160px 40px 0px;
+}
