@@ -79,7 +79,6 @@ module.exports = {
                     js: manifest.files.main.filter(f => f.endsWith('.js'))[0],
                     css: manifest.files.main.filter(f => f.endsWith('.css'))[0],
                 }
-                console.log(manifest);
                 
                 let template = fs.readFileSync(path.join(__dirname, 'frontend', 'app.html')).toString();
                 
